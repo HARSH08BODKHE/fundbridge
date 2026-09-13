@@ -14,7 +14,7 @@
 
 ## 🚀 Live Deployment
 
-- **Frontend App:** [https://fundbridge-frontend.vercel.app/profile](https://fundbridge-frontend.vercel.app/profile)
+- **Frontend App:** [https://fundbridge-frontend.vercel.app/profile](https://fundbridge-frontend.vercel.app)
 - **Author GitHub:** [https://github.com/HARSH08BODKHE](https://github.com/HARSH08BODKHE)
 
 ---
