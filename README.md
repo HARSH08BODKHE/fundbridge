@@ -1,6 +1,6 @@
 # 🌐 FundBridge — Modern Crowdfunding & Donation Platform
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-blue?style=for-the-badge&logo=vercel)](https://fundbridge-frontend.vercel.app/profile)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-blue?style=for-the-badge&logo=vercel)](https://fundbridge-frontend.vercel.app)
 [![React 19](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-8.1-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js-Express%205-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -14,7 +14,7 @@
 
 ## 🚀 Live Deployment
 
-- **Frontend App:** [https://fundbridge-frontend.vercel.app/profile](https://fundbridge-frontend.vercel.app)
+- **Frontend App:** [https://fundbridge-frontend.vercel.app](https://fundbridge-frontend.vercel.app)
 - **Author GitHub:** [https://github.com/HARSH08BODKHE](https://github.com/HARSH08BODKHE)
 
 ---
@@ -231,7 +231,7 @@ FUNDRAISER/
 
 **Harsh Bodkhe**
 - GitHub: [@HARSH08BODKHE](https://github.com/HARSH08BODKHE)
-- Live Application: [FundBridge on Vercel](https://fundbridge-frontend.vercel.app/profile)
+- Live Application: [FundBridge on Vercel](https://fundbridge-frontend.vercel.app)
 
 ---
 
