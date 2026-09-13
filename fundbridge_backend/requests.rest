@@ -1,0 +1,81 @@
+@baseUrl = http://localhost:5000
+@authToken = YOUR_JWT_TOKEN_HERE
+
+### ============================================
+### 1. REGISTER USER
+### ============================================
+POST {{baseUrl}}/register
+Content-Type: application/json
+
+{
+    "username": "testuser",
+    "email": "testuser@example.com",
+    "password": "Password123"
+}
+
+### ============================================
+### 2. VERIFY REGISTRATION OTP
+### ============================================
+POST {{baseUrl}}/verify-registration
+Content-Type: application/json
+
+{
+    "email": "testuser@example.com",
+    "otp": "123456"
+}
+
+### ============================================
+### 3. LOGIN USER
+### ============================================
+POST {{baseUrl}}/login
+Content-Type: application/json
+
+{
+    "identifier": "testuser@example.com",
+    "password": "Password123"
+}
+
+### ============================================
+### 4. GET PROFILE
+### ============================================
+GET {{baseUrl}}/profile
+Authorization: Bearer {{authToken}}
+
+### ============================================
+### 5. GET ALL ACTIVE CAMPAIGNS
+### ============================================
+GET {{baseUrl}}/api/campaigns?page=1&limit=6&sort=urgent
+
+### ============================================
+### 6. CREATE CAMPAIGN
+### ============================================
+POST {{baseUrl}}/api/campaigns
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+{
+    "title": "Help Students Get Laptops",
+    "description": "We want to provide laptops to students who cannot afford them.",
+    "category": "Education",
+    "goal_amount": 100000,
+    "image_url": "https://example.com/image.jpg",
+    "beneficiary_name": "Student Community",
+    "end_date": "2026-12-31"
+}
+
+### ============================================
+### 7. GET SINGLE CAMPAIGN
+### ============================================
+GET {{baseUrl}}/api/campaigns/1
+
+### ============================================
+### 8. GET MY CAMPAIGNS
+### ============================================
+GET {{baseUrl}}/api/campaigns/my
+Authorization: Bearer {{authToken}}
+
+### ============================================
+### 9. GET MY DONATIONS
+### ============================================
+GET {{baseUrl}}/api/donations/my-donations
+Authorization: Bearer {{authToken}}
